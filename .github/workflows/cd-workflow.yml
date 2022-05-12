@@ -3,6 +3,7 @@
 name: Node CI and Docker CD
 
 on:
+  workflow_dispatch:
   push:
     paths:
       - "**Dockerfile**"
